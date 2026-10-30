@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Registration and Grading System
 
 ## Course Information
@@ -65,3 +66,7 @@ This project demonstrates:
 ## Academic Integrity 
 
 Both group members collaborated in understanding Oracle PL/SQL concepts, organizing the project, and developing the code. Each member is responsible for understanding, testing, and verifying all submitted work.
+=======
+# plsql-assignment4-20252SEN266-20252SEN368
+Student Registration and Grading System
+>>>>>>> 3783c2632319010e9a0140d5691b9faba3fa9afe
