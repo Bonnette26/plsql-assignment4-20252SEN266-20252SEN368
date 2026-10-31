@@ -67,4 +67,3 @@ This project demonstrates:
 ## Academic Integrity
 
 AI tools were used to support learning, explanations, debugging, and documentation. Both group members reviewed and tested the work and are responsible for understanding the submitted code.
-
