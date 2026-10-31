@@ -45,5 +45,15 @@ SQL%BULK_EXCEPTIONS identifies the failed operations.
 
 Bulk processing improves performance by reducing communication between the PL/SQL engine and SQL engine compared with processing each row individually.
 
+### 10. Implicit Cursor Demonstration
+The implicit_cursor_demo procedure demonstrates INSERT, UPDATE,
+and DELETE operations using SQL%FOUND, SQL%NOTFOUND,
+and SQL%ROWCOUNT.
+
+### 11. User-Defined Exception
+The validate_student_marks procedure checks whether marks
+are between 0 and 100. Invalid marks raise an application
+error using RAISE_APPLICATION_ERROR.
+
 ## 8. Conclusion
 This project demonstrates how advanced Oracle PL/SQL concepts can be applied in a Student Registration and Grading System.s

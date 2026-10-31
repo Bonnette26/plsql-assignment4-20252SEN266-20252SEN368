@@ -59,6 +59,11 @@ This project demonstrates:
 5. Execute test scripts.
 6. Verify results and screenshots.
 
+### Additional PL/SQL Features
+- Implicit cursor attributes: SQL%FOUND, SQL%NOTFOUND, SQL%ROWCOUNT.
+- User-defined exceptions using RAISE and RAISE_APPLICATION_ERROR.
+- Validation of student marks between 0 and 100.
+
 ## Academic Integrity
 
 AI tools were used to support learning, explanations, debugging, and documentation. Both group members reviewed and tested the work and are responsible for understanding the submitted code.
