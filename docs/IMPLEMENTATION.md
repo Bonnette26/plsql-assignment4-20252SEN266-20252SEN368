@@ -56,4 +56,28 @@ are between 0 and 100. Invalid marks raise an application
 error using RAISE_APPLICATION_ERROR.
 
 ## 8. Conclusion
-This project demonstrates how advanced Oracle PL/SQL concepts can be applied in a Student Registration and Grading System.s
+This project demonstrates how advanced Oracle PL/SQL concepts can be applied in a Student Registration and Grading System.
+
+
+## Implementation Contributions – UWASE Henriette
+
+### 1. Explicit Cursor
+An explicit cursor is used to retrieve multiple student records from the database. It is declared using the CURSOR keyword and processed using OPEN, FETCH, and CLOSE.
+
+In this project, the student cursor retrieves student names, course names, marks, and grades.
+
+### 2. Collections
+Collections allow PL/SQL to store multiple values in one variable.
+
+This project uses an associative array to store and display student names. The collection is accessed using an index.
+
+### 3. Bulk Processing
+Bulk processing improves performance when handling multiple database records.
+
+This project uses:
+- BULK COLLECT to retrieve multiple registration IDs.
+- FORALL to update multiple registration records.
+- SQL%BULK_EXCEPTIONS to identify errors during bulk operations.
+
+### 4. Testing
+The procedures and functions were tested using valid and invalid data. The tests help verify that the system works correctly and handles errors appropriately.
