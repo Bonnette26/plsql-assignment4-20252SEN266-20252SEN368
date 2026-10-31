@@ -52,12 +52,13 @@ This project demonstrates:
 - `docs/` – Implementation notes.
 
 ## How to Run
-1. Create the database tables.
-2. Insert sample data.
-3. Compile stored procedures.
-4. Compile stored functions.
-5. Execute test scripts.
-6. Verify results and screenshots.
+
+1. Run `00_schema/01_create_tables.sql`.
+2. Run `00_schema/02_insert_sample_data.sql`.
+3. Compile procedures in `01_procedures/`.
+4. Compile functions in `02_functions/`.
+5. Run test scripts in `03_tests/`.
+6. Verify execution results using the screenshots in `screenshots/`.
 
 ### Additional PL/SQL Features
 - Implicit cursor attributes: SQL%FOUND, SQL%NOTFOUND, SQL%ROWCOUNT.
